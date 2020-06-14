@@ -16,5 +16,6 @@ namespace Lifect.Models
         public string Name { get; set; }
         [Required]
         public string ImageMuscleGroup { get; set; }
+        public string About { get; set; }
     }
 }
